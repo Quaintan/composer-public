@@ -1,0 +1,24 @@
+{
+    "name": "oy_nianbao/composer-public",
+    "description": "laravel公共拓展包",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "autoload":{
+        "files":[
+            "src/lib/helper.php"
+        ],
+        "psr-4":{
+            "OyNianbao\\ComposerPublic\\":"src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quaintan",
+            "email": "2523879457@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
